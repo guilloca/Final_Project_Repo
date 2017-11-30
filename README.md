@@ -1,2 +1,9 @@
 # Final_Project_Repo
-Final project repository
+Oregon State University Fall 2017 Computer Science 290 Final Project Repository
+
+Contributers:
+Alex Graalum
+Cam Guillory
+Jon
+
+Webpage Summary:
