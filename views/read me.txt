@@ -1,0 +1,5 @@
+impliment views handlebars here
+
+- main page
+- individual game page
+- info page

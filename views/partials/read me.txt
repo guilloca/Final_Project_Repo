@@ -1,0 +1,7 @@
+implimenting partials
+
+- header image and name
+- background
+- game list
+- youtube/facebook/etc... buttons
+- audio player / etc...
