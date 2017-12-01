@@ -1,1 +1,55 @@
-Jon, add your CSS
+.Header 
+{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    width: 15%;
+    background-color: rgb(90, 90, 250);
+    padding: 0px;
+    margin: 0px;
+}
+
+.Header a 
+{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+.Navigation 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.NavLink 
+{
+    height: 100px;
+    width: 15%;
+    background-color: rgb(90, 90, 250);
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.NavLink a 
+{
+    color: black;
+    font-size: 30px;
+    text-align: center;  
+}
+
+#Sidebar 
+{
+    background-color: white;
+}
+
+
+
