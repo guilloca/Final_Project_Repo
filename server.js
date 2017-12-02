@@ -4,7 +4,6 @@ var handlebars = require('handlebars');
 var exphb = require('express-handlebars');
 
 var gameData = require('./gameData');
-var songData = require('./songData');
 var app = express();
 var port = process.env.PORT || 3000;
 
@@ -17,21 +16,12 @@ app.get('/', function(req, res){
         posts: postData
     });
 });
+
 app.get('/posts/', function(req, res){
   res.status(200);
     res.render('index', {
         posts: postData
     });
-});
-
-app.get('/posts/:postId', function(req, res, next){
-  var postId = req.params.postId;
-  if(postData[postId]){
-    var posts = postData[postId];
-    res.status(200).render('postView', posts);
-  }else {
-    next();
-  }
 });
 
 app.use(express.static('public'));
