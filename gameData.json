@@ -12,21 +12,24 @@
     "genres": ["moba", "action"],
     "pace": "steady",
     "artists": ["",""],
-    "photoURL": "http://cdn.pcwallart.com/images/league-of-legends-logo-wallpaper-2.jpg"
+    "photoURL": "http://cdn.pcwallart.com/images/league-of-legends-logo-wallpaper-2.jpg",
+    "playlistURL": ""
   },
   {
     "title": "Fortnite",
     "genres": ["sandbox", "shooter"],
     "pace": "mixed",
     "artists": ["Jon Bellion","DJ Khaled"],
-    "photoURL": ""
+    "photoURL": "",
+    "playlistURL": ""
   },
   {
     "title": "GTA V",
     "genres": ["shooter", "sandbox", "open world"],
     "pace": "mixed",
     "artists": ["",""],
-    "photoURL": "https://artistryingames.com/wp-content/uploads/2014/11/gtav_xbox360tv_1280.jpg"
+    "photoURL": "https://artistryingames.com/wp-content/uploads/2014/11/gtav_xbox360tv_1280.jpg",
+    "playlistURL": ""
   },
   {
     "title": "Killing Floor",
@@ -65,15 +68,15 @@
     "genres": [""],
     "pace": "",
     "artists": [""],
-    "photoURL": "",
-    "playlistURL": "https://d1wfiv6sf8d64f.cloudfront.net/static/pc/img/visual_main.jpg"
+    "photoURL": "https://d1wfiv6sf8d64f.cloudfront.net/static/pc/img/visual_main.jpg",
+    "playlistURL": ""
   },
   {
     "title": "Rust",
     "genres": [""],
     "pace": "",
     "artists": [""],
-    "photoURL": "",
-    "playlistURL": "https://steamuserimages-a.akamaihd.net/ugc/770526534692284084/0E2257E7ECD57A0AAB97BAEAEB966550A8F95335/"
+    "photoURL": "https://steamuserimages-a.akamaihd.net/ugc/770526534692284084/0E2257E7ECD57A0AAB97BAEAEB966550A8F95335/",
+    "playlistURL": ""
   }
 ]
