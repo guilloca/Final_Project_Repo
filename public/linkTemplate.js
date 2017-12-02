@@ -7,10 +7,6 @@ templates['linkTemplate'] = template({"compiler":[7,">= 4.0.0"],"main":function(
     + alias4(((helper = (helper = helpers.photoURL || (depth0 != null ? depth0.photoURL : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"photoURL","hash":{},"data":data}) : helper)))
     + ">\n    <h6 class=\"linkTitle\">"
     + alias4(((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper)))
-<<<<<<< HEAD
-    + "</h6>\n  </a>\n</div>\n";
-=======
-    + "</h6>\r\n    </img>\r\n  </a>\r\n</div>\r\n";
->>>>>>> 069daa4f67afbccff9a89801a9074ba347c8861b
+    + "</h6>\n    </img>\n  </a>\n</div>\n";
 },"useData":true});
 })();

@@ -15,7 +15,6 @@ header
     padding: 0px;
     margin: 0px;
     position: fixed;
-    z-index: -1;
 }
 
 header h1
@@ -51,10 +50,7 @@ header h1
     margin: 0px;
     text-align: center;
     position: relative;
-<<<<<<< HEAD
     z-index: -1;
-=======
->>>>>>> 069daa4f67afbccff9a89801a9074ba347c8861b
 }
 
 .gameLink a
@@ -91,13 +87,8 @@ header h1
 .linkPhoto
 {
    max-height: 100%;
-<<<<<<< HEAD
    max-width: 100%; 
 
-=======
-   max-width: 100%;
-   position: absolute;
->>>>>>> 069daa4f67afbccff9a89801a9074ba347c8861b
 }
 
 .linkTitle
