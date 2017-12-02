@@ -33,32 +33,32 @@
     "genres": ["shooter", "fps", "survival"],
     "pace": "fast",
     "artists": ["Rammstein","Avanged Sevenfold"],
-    "photoURL": "",
-    "playlistURL": "https://news.xbox.com/wp-content/uploads/01-85.jpg"
+    "photoURL": "https://news.xbox.com/wp-content/uploads/01-85.jpg",
+    "playlistURL": ""
   },
   {
     "title": "H1Z1",
     "genres": [""],
     "pace": "",
     "artists": [""],
-    "photoURL": "",
-    "playlistURL": "http://s3.amazonaws.com/digitaltrends-uploads-prod/2014/04/H1Z1.jpg"
+    "photoURL": "http://s3.amazonaws.com/digitaltrends-uploads-prod/2014/04/H1Z1.jpg",
+    "playlistURL": ""
   },
   {
     "title": "CS:GO",
     "genres": [""],
     "pace": "",
     "artists": [""],
-    "photoURL": "",
-    "playlistURL": "https://s3.amazonaws.com/opshead/assets/article/2016/07/05/counter-strike-weapon-skin-youtuber-scandal_feature.jpg"
+    "photoURL": "https://s3.amazonaws.com/opshead/assets/article/2016/07/05/counter-strike-weapon-skin-youtuber-scandal_feature.jpg",
+    "playlistURL": ""
   },
   {
     "title": "Overwatch",
     "genres": [""],
     "pace": "",
     "artists": [""],
-    "photoURL": "",
-    "playlistURL": "https://www.destructoid.com//ul/466321-OWHeader.jpg"
+    "photoURL": "https://www.destructoid.com//ul/466321-OWHeader.jpg",
+    "playlistURL": ""
   },
   {
     "title": "PUBg",
