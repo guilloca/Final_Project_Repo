@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var player;
 var listID;
 
@@ -15,3 +16,16 @@ function onYouTubeIframeAPIReady(listID) {
     });
 }
 
+=======
+var allLinks = [];
+function insertNewLink(title, photoURL) {
+  var context = {
+    title: title,
+    photoURL: photoURL
+  }
+
+  var navBarLinks = document.getElementById('navBar');
+  var html = Handlebars.templates['linkTemplate'](context);
+  navBarLinks.innerHTML += html;
+};
+>>>>>>> e79cdb583fa3ddea85b8578fef937a0037e8dbea

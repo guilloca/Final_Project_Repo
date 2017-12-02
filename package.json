@@ -1,11 +1,11 @@
 {
-  "name": "Songs.gg webpage",
+  "name": "songs.gg-webpage",
   "version": "1.0.0",
   "description": "Gaming music playlist library",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "handlebars views/partials/musicTemplate.handlebars -f public/musicTemplate.js",
+    "build": "handlebars views/partials/linkTemplate.handlebars -f public/linkTemplate.js",
     "start": "node server.js",
     "prestart": "npm run build"
   },

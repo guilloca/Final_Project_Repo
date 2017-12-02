@@ -1,23 +1,33 @@
-.Header 
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Courier, monospace;    
+}
+header
 {
     border-style: solid;
     border-color: black;
     border-width: 3px;
-    width: 15%;
+    width: 50%;
+    height: 144px;
     background-color: rgb(90, 90, 250);
     padding: 0px;
     margin: 0px;
+    position: fixed;
 }
 
-.Header a 
+header h1
 {
-    font-size: 25px;
+    font-size: 60px;
     color: black;
     text-align: center;
 }
 
-.Navigation 
+#navBar
 {
+    background-color: white;
+    float: left;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -27,10 +37,10 @@
     margin: 0px;
 }
 
-.NavLink 
+.gameLink
 {
-    height: 100px;
-    width: 15%;
+    height: 144px;
+    width: 256px;
     background-color: rgb(90, 90, 250);
     border-style: solid;
     border-color: black;
@@ -39,17 +49,42 @@
     margin: 0px;
 }
 
-.NavLink a 
+.gameLink a
 {
     color: black;
     font-size: 30px;
-    text-align: center;  
+    text-align: center;
 }
 
-#Sidebar 
+#content{
+    background-color: wheat;
+    float: left;
+    height: 90%;
+    width: 90%;
+    position: fixed;
+    margin-left: 296px;
+    margin-top: 184px;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+
+#main-page
 {
-    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    float: right;
+    display: flex;
 }
 
+.linkPhoto
+{
+   max-height: 100%;
+   max-width: 100%; 
+}
 
-
+.linkTitle
+{
+    max-height: 10%;
+    max-width: 100%
+}
