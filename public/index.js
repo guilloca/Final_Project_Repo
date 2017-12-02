@@ -1,13 +1,17 @@
-function insertNewPost(description, photoURL, price, city, condition) {
-  var context = {
-    description: description,
-    photoURL: photoURL,
-    price: price,
-    city: city,
-    condition, condition
-  }
+var player;
+var listID;
 
-  var postsSection = document.getElementById('posts');
-  var html = Handlebars.templates['postTemplate'](context);
-  postsSection.innerHTML += html;
-};
+function onYouTubeIframeAPIReady(listID) {
+    player = new YT.Player('player', {
+        height: '0',
+        width: '0',
+        loadType: 'playlist',
+        list: listID,
+        events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+
+    });
+}
+
