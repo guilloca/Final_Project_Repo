@@ -16,7 +16,7 @@ header
     position: fixed;
 }
 
-header a
+header h1
 {
     font-size: 25px;
     color: black;
@@ -52,13 +52,7 @@ header a
 {
     color: black;
     font-size: 30px;
-<<<<<<< HEAD
     text-align: center;
-=======
-    text-align: center;  
-    padding: 0px;
-    margin: 0px;
->>>>>>> 351875a7e8461260cfcf712c61b58d83348c9e5a
 }
 
 #content{
@@ -80,10 +74,16 @@ header a
     margin: auto;
     float: right;
     display: flex;
-<<<<<<< HEAD
 }
-=======
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+
+.linkPhoto
+{
+   max-height: 100%;
+   max-width: 90%; 
 }
->>>>>>> 351875a7e8461260cfcf712c61b58d83348c9e5a
+
+.linkTitle
+{
+    max-height: 10%;
+    max-width: 100%
+}
