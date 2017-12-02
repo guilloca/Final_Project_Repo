@@ -1,13 +1,11 @@
-function insertNewPost(description, photoURL, price, city, condition) {
+var allLinks = [];
+function insertNewPost(title, photoURL) {
   var context = {
-    description: description,
-    photoURL: photoURL,
-    price: price,
-    city: city,
-    condition, condition
+    title: title,
+    photoURL: photoURL
   }
 
-  var postsSection = document.getElementById('posts');
-  var html = Handlebars.templates['postTemplate'](context);
-  postsSection.innerHTML += html;
+  var navBarLinks = document.getElementById('navBar');
+  var html = Handlebars.templates['linkTemplate'](context);
+  navBarLinks.innerHTML += html;
 };

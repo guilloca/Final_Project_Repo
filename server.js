@@ -17,13 +17,6 @@ app.get('/', function(req, res){
     });
 });
 
-app.get('/posts/', function(req, res){
-  res.status(200);
-    res.render('index', {
-        posts: postData
-    });
-});
-
 app.use(express.static('public'));
 
 app.get('*', function (req, res) {

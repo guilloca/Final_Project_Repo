@@ -2,7 +2,6 @@
   {
     "title": "League of Legends",
     "genres": ["moba", "action"],
-    "songs": ,
     "pace": "steady",
     "artists": ["",""],
     "photoURL": ""
@@ -10,7 +9,6 @@
   {
     "title": "Fortnite",
     "genres": ["sandbox", "shooter"],
-    "songs": ,
     "pace": "mixed",
     "artists": ["Jon Bellion","DJ Khaled"],
     "photoURL": ""
@@ -18,7 +16,6 @@
   {
     "title": "GTA V",
     "genres": ["shooter", "sandbox", "open world"],
-    "songs": ,
     "pace": "mixed",
     "artists": ["",""],
     "photoURL": ""
@@ -26,7 +23,6 @@
   {
     "title": "Killing Floor",
     "genres": ["shooter", "fps", "survival"],
-    "songs": ,
     "pace": "fast",
     "artists": ["Rammstein","Avanged Sevenfold"],
     "photoURL": "https://i.ytimg.com/vi/oscFNLWFb-Y/maxresdefault.jpg",
