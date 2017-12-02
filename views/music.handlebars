@@ -1,0 +1,14 @@
+<body>
+
+  {{> header}}
+
+    <section id="navBar">
+      {{#each game}}
+      {{> linkTemplate}}
+      {{/each}}
+    </section>
+
+  <div id="content">
+    {{> player}}
+  </div>
+</body>
