@@ -28,7 +28,7 @@ app.get('/games/:gameID', function (req, res) {
     var gameID = req.params.gameID;
     if (postData[gameID]) {
         var game = postData[gameID];
-        res.status(200).render('', game);
+        res.status(200).render('music', game);
     }
     else {
         next();
