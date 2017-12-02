@@ -47,6 +47,7 @@ header h1
     border-width: 3px;
     padding: 0px;
     margin: 0px;
+    text-align: center;
 }
 
 .gameLink a
@@ -89,7 +90,7 @@ header h1
 .linkTitle
 {
     max-height: 10%;
-    max-width: 100%
+    max-width: 100%;
 }
 
 .action
