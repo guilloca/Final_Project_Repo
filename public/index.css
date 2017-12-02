@@ -1,9 +1,9 @@
-body 
+body
 {
     margin: 0px;
     padding: 0px;
 }
-.Header 
+header
 {
     border-style: solid;
     border-color: black;
@@ -16,14 +16,14 @@ body
 
 }
 
-.Header a 
+header a
 {
     font-size: 25px;
     color: black;
     text-align: center;
 }
 
-.Navigation 
+#navBar
 {
     background-color: white;
     float: left;
@@ -36,7 +36,7 @@ body
     margin: 0px;
 }
 
-.NavLink 
+.gameLink
 {
     height: 100px;
     width: 15%;
@@ -48,14 +48,14 @@ body
     margin: 0px;
 }
 
-.NavLink a 
+.gameLink a
 {
     color: black;
     font-size: 30px;
-    text-align: center;  
+    text-align: center;
 }
 
-#Content{
+#content{
     background-color: wheat;
     float: left;
     min-width: 15%;

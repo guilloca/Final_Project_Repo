@@ -13,7 +13,7 @@ app.set('view engine', 'handlebars');
 app.get('/', function(req, res){
   res.status(200);
     res.render('index', {
-        posts: postData
+      game: gameData
     });
 });
 
