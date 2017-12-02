@@ -2,7 +2,7 @@ body
 {
     margin: 0px;
     padding: 0px;
-    font-family: Courier, monospace;    
+    font-family: Courier, monospace;
 }
 header
 {
@@ -15,6 +15,7 @@ header
     padding: 0px;
     margin: 0px;
     position: fixed;
+    z-index: -1;
 }
 
 header h1
@@ -49,6 +50,7 @@ header h1
     padding: 0px;
     margin: 0px;
     text-align: center;
+    position: relative;
 }
 
 .gameLink a
@@ -85,7 +87,8 @@ header h1
 .linkPhoto
 {
    max-height: 100%;
-   max-width: 100%; 
+   max-width: 100%;
+   position: absolute;
 }
 
 .linkTitle
@@ -124,5 +127,3 @@ header h1
     border-width: 10px;
     border-radius: 50%;
 }
-
-
