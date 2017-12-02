@@ -17,6 +17,24 @@ app.get('/', function(req, res){
     });
 });
 
+app.get('/games', function (req, res) {
+    res.status(200);
+    res.render('index', {
+        game: gameData
+    });
+});
+
+app.get('/games/:gameID', function (req, res) {
+    var gameID = req.params.gameID;
+    if (postData[gameID]) {
+        var game = postData[gameID];
+        res.status(200).render('', game);
+    }
+    else {
+        next();
+    }
+});
+
 app.use(express.static('public'));
 
 app.get('*', function (req, res) {
