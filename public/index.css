@@ -53,18 +53,15 @@ header h1
     position: relative;
 }
 
-.gameLink a
-{
-    color: black;
-    font-size: 30px;
-    text-align: center;
-}
+
 
 #content{
     background-color: wheat;
     float: left;
-    height: 80%;
-    width: 80%;
+    height: auto;
+    width: auto;
+    min-height: 60%;
+    min-width: 60%;
     position: fixed;
     margin-left: 296px;
     margin-top: 184px;
@@ -104,6 +101,13 @@ header h1
     border-width: 1px;
     border-radius: 20%;
     border-color: black;
+}
+
+.gameLink a
+{
+    color: black;
+    font-size: 30px;
+    text-align: center;
 }
 
 .action
