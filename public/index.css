@@ -15,6 +15,7 @@ header
     padding: 0px;
     margin: 0px;
     position: fixed;
+    z-index: 1;
 }
 
 header h1
@@ -50,21 +51,17 @@ header h1
     margin: 0px;
     text-align: center;
     position: relative;
-    z-index: -1;
 }
 
-.gameLink a
-{
-    color: black;
-    font-size: 30px;
-    text-align: center;
-}
+
 
 #content{
     background-color: wheat;
     float: left;
-    height: 80%;
-    width: 80%;
+    height: auto;
+    width: auto;
+    min-height: 60%;
+    min-width: 60%;
     position: fixed;
     margin-left: 296px;
     margin-top: 184px;
@@ -104,6 +101,13 @@ header h1
     border-width: 1px;
     border-radius: 20%;
     border-color: black;
+}
+
+.gameLink a
+{
+    color: black;
+    font-size: 30px;
+    text-align: center;
 }
 
 .action
