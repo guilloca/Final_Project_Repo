@@ -1,5 +1,5 @@
 {
-  "name": "Songs.gg webpage",
+  "name": "songs.gg-webpage",
   "version": "1.0.0",
   "description": "Gaming music playlist library",
   "main": "server.js",

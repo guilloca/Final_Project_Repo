@@ -1,5 +1,5 @@
 var allLinks = [];
-function insertNewPost(title, photoURL) {
+function insertNewLink(title, photoURL) {
   var context = {
     title: title,
     photoURL: photoURL
