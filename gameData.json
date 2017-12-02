@@ -1,19 +1,11 @@
 [
   {
-    "title": "",
-    "genres": [""],
-    "pace": "",
-    "artists": [""],
-    "photoURL": "",
-    "playlistURL": ""
-  },
-  {
     "title": "League of Legends",
     "genres": ["moba", "action"],
     "pace": "steady",
     "artists": ["",""],
     "photoURL": "http://cdn.pcwallart.com/images/league-of-legends-logo-wallpaper-2.jpg",
-    "playlistURL": ""
+    "playListId": ""
   },
   {
     "title": "Fortnite",
@@ -21,7 +13,7 @@
     "pace": "mixed",
     "artists": ["Jon Bellion","DJ Khaled"],
     "photoURL": "",
-    "playlistURL": ""
+    "playListId": ""
   },
   {
     "title": "GTA V",
@@ -29,7 +21,7 @@
     "pace": "mixed",
     "artists": ["",""],
     "photoURL": "https://artistryingames.com/wp-content/uploads/2014/11/gtav_xbox360tv_1280.jpg",
-    "playlistURL": ""
+    "playListId": ""
   },
   {
     "title": "Killing Floor",
@@ -37,7 +29,7 @@
     "pace": "fast",
     "artists": ["Rammstein","Avanged Sevenfold"],
     "photoURL": "https://news.xbox.com/wp-content/uploads/01-85.jpg",
-    "playlistURL": ""
+    "playListId": ""
   },
   {
     "title": "H1Z1",
@@ -45,7 +37,7 @@
     "pace": "",
     "artists": [""],
     "photoURL": "http://s3.amazonaws.com/digitaltrends-uploads-prod/2014/04/H1Z1.jpg",
-    "playlistURL": ""
+    "playListId": ""
   },
   {
     "title": "CS:GO",
@@ -53,7 +45,7 @@
     "pace": "",
     "artists": [""],
     "photoURL": "https://s3.amazonaws.com/opshead/assets/article/2016/07/05/counter-strike-weapon-skin-youtuber-scandal_feature.jpg",
-    "playlistURL": ""
+    "playListId": ""
   },
   {
     "title": "Overwatch",
@@ -61,7 +53,7 @@
     "pace": "",
     "artists": [""],
     "photoURL": "https://www.destructoid.com//ul/466321-OWHeader.jpg",
-    "playlistURL": ""
+    "playListId": ""
   },
   {
     "title": "PUBg",
@@ -69,7 +61,7 @@
     "pace": "",
     "artists": [""],
     "photoURL": "https://d1wfiv6sf8d64f.cloudfront.net/static/pc/img/visual_main.jpg",
-    "playlistURL": ""
+    "playListId": ""
   },
   {
     "title": "Rust",
@@ -77,6 +69,6 @@
     "pace": "",
     "artists": [""],
     "photoURL": "https://steamuserimages-a.akamaihd.net/ugc/770526534692284084/0E2257E7ECD57A0AAB97BAEAEB966550A8F95335/",
-    "playlistURL": ""
+    "playListId": ""
   }
 ]
