@@ -1,12 +1,19 @@
+/*
+   *** Songs.GG ***
+   *** CS 290 Final Project ***
+ */
+var listID = document.getElementById('player').listID;
+console.log("JS Loaded w/ ListID: " ) + String(listID);
 var player;
-var listID;
 
-function onYouTubeIframeAPIReady(listID) {
+function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
         height: '0',
         width: '0',
-        loadType: 'playlist',
-        list: listID,
+        playerVars: {
+            listType: 'playlist',
+            list: listID
+        },
         events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
@@ -16,6 +23,7 @@ function onYouTubeIframeAPIReady(listID) {
 }
 
 var allLinks = [];
+
 function insertNewLink(title, photoURL) {
   var context = {
     title: title,
