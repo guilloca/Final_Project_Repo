@@ -26,13 +26,12 @@ app.get('/games', function (req, res) {
 
 app.get('/games/:gameID', function (req, res) {
     var gameID = req.params.gameID;
-    if (gameData[gameID]) {
-        var game = gameData[gameID];
-        res.status(200).render('music', game);
-    }
-    else {
-        next();
-    }
+    var gameData = JSON.parse(game);
+    listID = gameData.game[gameID].playListId;
+    res.status(200);
+    res.render('index', {
+        game: gameData
+    });
 });
 
 app.use(express.static('public'));
