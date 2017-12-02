@@ -1,5 +1,13 @@
 [
   {
+    "title": "",
+    "genres": [""],
+    "pace": "",
+    "artists": [""],
+    "photoURL": "",
+    "playlistURL": ""
+  },
+  {
     "title": "League of Legends",
     "genres": ["moba", "action"],
     "pace": "steady",
@@ -18,14 +26,54 @@
     "genres": ["shooter", "sandbox", "open world"],
     "pace": "mixed",
     "artists": ["",""],
-    "photoURL": ""
+    "photoURL": "https://image.freepik.com/free-photo/cute-cat-picture_1122-449.jpg"
   },
   {
     "title": "Killing Floor",
     "genres": ["shooter", "fps", "survival"],
     "pace": "fast",
     "artists": ["Rammstein","Avanged Sevenfold"],
-    "photoURL": "https://i.ytimg.com/vi/oscFNLWFb-Y/maxresdefault.jpg",
+    "photoURL": "",
+    "playlistURL": ""
+  },
+  {
+    "title": "H1Z1",
+    "genres": [""],
+    "pace": "",
+    "artists": [""],
+    "photoURL": "",
+    "playlistURL": ""
+  },
+  {
+    "title": "CS:GO",
+    "genres": [""],
+    "pace": "",
+    "artists": [""],
+    "photoURL": "",
+    "playlistURL": ""
+  },
+  {
+    "title": "Overwatch",
+    "genres": [""],
+    "pace": "",
+    "artists": [""],
+    "photoURL": "",
+    "playlistURL": ""
+  },
+  {
+    "title": "PUBg",
+    "genres": [""],
+    "pace": "",
+    "artists": [""],
+    "photoURL": "",
+    "playlistURL": ""
+  },
+  {
+    "title": "Rust",
+    "genres": [""],
+    "pace": "",
+    "artists": [""],
+    "photoURL": "",
     "playlistURL": ""
   }
 ]
