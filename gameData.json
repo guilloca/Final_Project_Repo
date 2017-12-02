@@ -12,7 +12,7 @@
     "genres": ["moba", "action"],
     "pace": "steady",
     "artists": ["",""],
-    "photoURL": ""
+    "photoURL": "http://cdn.pcwallart.com/images/league-of-legends-logo-wallpaper-2.jpg"
   },
   {
     "title": "Fortnite",
@@ -26,7 +26,7 @@
     "genres": ["shooter", "sandbox", "open world"],
     "pace": "mixed",
     "artists": ["",""],
-    "photoURL": "https://image.freepik.com/free-photo/cute-cat-picture_1122-449.jpg"
+    "photoURL": "https://artistryingames.com/wp-content/uploads/2014/11/gtav_xbox360tv_1280.jpg"
   },
   {
     "title": "Killing Floor",
@@ -34,7 +34,7 @@
     "pace": "fast",
     "artists": ["Rammstein","Avanged Sevenfold"],
     "photoURL": "",
-    "playlistURL": ""
+    "playlistURL": "https://news.xbox.com/wp-content/uploads/01-85.jpg"
   },
   {
     "title": "H1Z1",
@@ -42,7 +42,7 @@
     "pace": "",
     "artists": [""],
     "photoURL": "",
-    "playlistURL": ""
+    "playlistURL": "http://s3.amazonaws.com/digitaltrends-uploads-prod/2014/04/H1Z1.jpg"
   },
   {
     "title": "CS:GO",
@@ -50,7 +50,7 @@
     "pace": "",
     "artists": [""],
     "photoURL": "",
-    "playlistURL": ""
+    "playlistURL": "https://s3.amazonaws.com/opshead/assets/article/2016/07/05/counter-strike-weapon-skin-youtuber-scandal_feature.jpg"
   },
   {
     "title": "Overwatch",
@@ -58,7 +58,7 @@
     "pace": "",
     "artists": [""],
     "photoURL": "",
-    "playlistURL": ""
+    "playlistURL": "https://www.destructoid.com//ul/466321-OWHeader.jpg"
   },
   {
     "title": "PUBg",
@@ -66,7 +66,7 @@
     "pace": "",
     "artists": [""],
     "photoURL": "",
-    "playlistURL": ""
+    "playlistURL": "https://d1wfiv6sf8d64f.cloudfront.net/static/pc/img/visual_main.jpg"
   },
   {
     "title": "Rust",
@@ -74,6 +74,6 @@
     "pace": "",
     "artists": [""],
     "photoURL": "",
-    "playlistURL": ""
+    "playlistURL": "https://steamuserimages-a.akamaihd.net/ugc/770526534692284084/0E2257E7ECD57A0AAB97BAEAEB966550A8F95335/"
   }
 ]
