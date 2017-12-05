@@ -2,6 +2,7 @@
    *** Songs.GG ***
    *** CS 290 Final Project ***
  */
+var allLinks = [];
 
 var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
@@ -37,8 +38,6 @@ function onPlayerStateChange(event) {
 function stopVideo() {
     player.stopVideo();
 }
-
-var allLinks = [];
 
 function insertNewLink(title, photoURL) {
   var context = {
