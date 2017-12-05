@@ -26,11 +26,12 @@ app.get('/games', function (req, res) {
 
 app.get('/games/:gameID', function (req, res) {
     var gameID = req.params.gameID;
-    var gameData = JSON.parse(game);
-    listID = gameData.game[gameID].playListId;
+    var listID = gameData[gameID].playListId;
+    console.log("listID = " + listID);
     res.status(200);
-    res.render('index', {
-        game: gameData
+    res.render('music', {
+        game: gameData,
+        playListId: listID
     });
 });
 
