@@ -4,15 +4,13 @@
  */
 
 var tag = document.createElement('script');
-
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-var player;
 
+var listID = document.getElementById('player-content').playlistid;
+console.log("JS Loaded w/ ListID: ") + String(listID);
 function onYouTubeIframeAPIReady() {
-    var listID = document.getElementById('player-content').playListId;
-    console.log("JS Loaded w/ ListID: ") + String(listID);
     player = new YT.Player('player', {
         height: '300',
         width: '300',
@@ -27,7 +25,6 @@ function onYouTubeIframeAPIReady() {
 
     });
 }
-
 function onPlayerReady(event) {
     event.target.playVideo();
 }
