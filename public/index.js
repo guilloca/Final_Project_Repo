@@ -10,6 +10,9 @@ var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 var listID = document.getElementById('player-content').playlistid;
+if (!listID) {
+    console.log("Error: ListID is empty");
+}
 console.log("JS Loaded w/ ListID: ") + String(listID);
 function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
