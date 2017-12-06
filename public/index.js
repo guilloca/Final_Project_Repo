@@ -2,6 +2,7 @@
    *** Songs.GG ***
    *** CS 290 Final Project ***
  */
+const DEFAULT_VOLUME = 6;
 var allLinks = [];
 
 
@@ -23,6 +24,7 @@ function onYouTubePlayerAPIReady() {
 function onPlayerReady(event) {
 
     // bind events
+    player.setVolume(DEFAULT_VOLUME);
     var pausePlay = document.getElementById("pausePlay");
     pausePlay.addEventListener("click", function () {
         if (playState) {
