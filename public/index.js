@@ -12,25 +12,33 @@ var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 var playState = true;
+var rand = document.getElementById('player').dataset.rand;
+var listID = document.getElementById('player').dataset.playlistid;
+if (!listID) {
+    console.log("Error: ListID is empty");
+} else {
+    console.log("PLAYLIST_ID: " + listID + " @index:" + rand);
+}
 function onYouTubePlayerAPIReady() {
-    var listID = document.getElementById('player').dataset.playlistid;
-    if (!listID) {
-        console.log("Error: ListID is empty");
-    } else {
-        console.log("PLAYLIST_ID: " + listID);
-    }
     player = new YT.Player('player', {
         height: '200',
         width: '100%',
         playerVars: {
             listType: 'playlist',
             list: listID,
-            autoplay: 1,
-            controls: 0
+            autoplay: 0,
+            modestbranding: 1,
+            rel: 0,
+            showinfo: 0,
+            controls: 0,
+            enablejsapi: 1,
+            index: rand,
+            loop: 1
         },
         events: {
             // call this function when player is ready to use
             'onReady': onPlayerReady,
+            // when player changes
             'onStateChange': onPlayerStateChange
 
         }
@@ -43,13 +51,12 @@ function onPlayerStateChange(event){
     }
 }
 function onPlayerReady(event) {
-    player.loadPlaylist(listID);
+
     // player initializers
     player.setVolume(DEFAULT_VOLUME);
     player.setLoop(true);
-    player.setShuffle(true);
     player.playVideo();
-
+    player.setShuffle(true);
     // pause play button
     var pausePlay = document.getElementById("pausePlay");
     pausePlay.addEventListener('click', function () {
@@ -77,14 +84,6 @@ function onPlayerReady(event) {
         player.previousVideo();
         console.log("Song went back!");
     });
-
-    // grab playlist ID // currently unused
-    var listID = document.getElementById('player').dataset.playlistid;
-    if (!listID) {
-        console.log("Error: ListID is empty");
-    } else {
-        console.log("PLAYLIST_ID: " + listID);
-    }
 }
 
 /* **** Shiz that won't work for no good reason ****
