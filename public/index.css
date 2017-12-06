@@ -132,6 +132,8 @@ header h1
     width: auto;
     position: absolute;
     bottom: 0;
+    align-items: center;
+    margin: 20px;
 }
 
 #player
@@ -144,15 +146,15 @@ header h1
 
 .spacer
 {
-    width: 280px;
+    width: 300px;
     height: 20px;
-
+    background-color: white;
 }
 
 .buttonZone
 {
     display: flex;
-    height: 40px;
+    height: 80px;
 }
 
 .button
@@ -160,9 +162,15 @@ header h1
     border-style: solid;
     border-width: 10px;
     margin-right: 10px;
+    border-radius: 14%;
     text-align: center;
-    min-height: 60px;
+    min-height: 35px;
     padding: 5px;   
+}
+
+#skipButt
+{
+    margin: 0;
 }
 
 .button strong
