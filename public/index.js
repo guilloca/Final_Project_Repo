@@ -5,28 +5,54 @@
 const DEFAULT_VOLUME = 6;
 var allLinks = [];
 
-
 var tag = document.createElement('script');
+
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
 var playState = true;
 function onYouTubePlayerAPIReady() {
-    player = new YT.Player(document.getElementById('ytplayer'), {
+    var listID = document.getElementById('player').dataset.playlistid;
+    if (!listID) {
+        console.log("Error: ListID is empty");
+    } else {
+        console.log("PLAYLIST_ID: " + listID);
+    }
+    player = new YT.Player('player', {
+        height: '200',
+        width: '100%',
+        playerVars: {
+            listType: 'playlist',
+            list: listID,
+            autoplay: 1,
+            controls: 0
+        },
         events: {
             // call this function when player is ready to use
-            'onReady': onPlayerReady
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
 
         }
     });
 }
-
+function onPlayerStateChange(event){
+    if (event.data == YT.PlayerState.ENDED) {
+        player.nextVideo();
+        console.log("Video ended: playing next song! " + player.getPlaylistIndex());
+    }
+}
 function onPlayerReady(event) {
-
-    // bind events
+    player.loadPlaylist(listID);
+    // player initializers
     player.setVolume(DEFAULT_VOLUME);
+    player.setLoop(true);
+    player.setShuffle(true);
+    player.playVideo();
+
+    // pause play button
     var pausePlay = document.getElementById("pausePlay");
-    pausePlay.addEventListener("click", function () {
+    pausePlay.addEventListener('click', function () {
         if (playState) {
             player.pauseVideo();
             playState = false;
@@ -37,6 +63,22 @@ function onPlayerReady(event) {
             console.log("player played!");
         }
     });
+
+    // skip song button
+    var skipButton = document.getElementById("skipButt");
+    skipButton.addEventListener('click', function () {
+        player.nextVideo();
+        console.log("Song skipped!");
+    });
+
+    // prev song button
+    var prevButton = document.getElementById("backButt");
+    prevButton.addEventListener('click', function () {
+        player.previousVideo();
+        console.log("Song went back!");
+    });
+
+    // grab playlist ID // currently unused
     var listID = document.getElementById('player').dataset.playlistid;
     if (!listID) {
         console.log("Error: ListID is empty");
