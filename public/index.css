@@ -3,6 +3,7 @@ body
     margin: 0px;
     padding: 0px;
     font-family: Courier, monospace;
+    background-color: black;
 }
 header
 {
@@ -56,7 +57,7 @@ header h1
 
 
 #content{
-    background-color: wheat;
+    background-color: rgb(90, 90, 250);
     float: left;
     height: auto;
     width: auto;
@@ -158,6 +159,7 @@ header h1
 {
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 .spacer
@@ -167,8 +169,8 @@ header h1
     border-style: solid;
     border-width: 1px;
     border-radius: 5.25px;
-    border-color: white;
-    background-color: white;
+    border-color: black;
+    background-color: black;
 }
 
 .buttonZone
@@ -183,9 +185,12 @@ header h1
     border-width: 10px;
     margin-right: 10px;
     border-radius: 15%;
+
     text-align: center;
     min-height: 35px;
-    padding: 5px;   
+    padding: 5px;
+
+    color: white;   
 }
 
 #skipButt
