@@ -4,6 +4,6 @@ Oregon State University Fall 2017 Computer Science 290 Final Project Repository
 Contributers:
 Alex Graalum
 Cam Guillory
-Jonathon Hull
+Jonathan Hull
 
 Webpage Summary:
