@@ -4,12 +4,44 @@
  */
 var allLinks = [];
 
-/* **** Shiz that won't work for no good reason ****
+
 var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var playState = true;
+function onYouTubePlayerAPIReady() {
+    player = new YT.Player(document.getElementById('ytplayer'), {
+        events: {
+            // call this function when player is ready to use
+            'onReady': onPlayerReady
 
+        }
+    });
+}
+
+function onPlayerReady(event) {
+
+    // bind events
+    var pausePlay = document.getElementById("pausePlay");
+    pausePlay.addEventListener("click", function () {
+        if (playState) {
+            player.pauseVideo();
+            playState = false;
+            console.log("player paused!");
+        } else {
+            player.playVideo();
+            playState = true;
+            console.log("player played!");
+        }
+    });
+    var listID = document.getElementById('player-content').playlistid;
+    if (!listID) {
+        console.log("Error: ListID is empty");
+    }
+}
+
+/* **** Shiz that won't work for no good reason ****
 var listID = document.getElementById('player-content').playlistid;
 if (!listID) {
     console.log("Error: ListID is empty");

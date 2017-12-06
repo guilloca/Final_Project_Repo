@@ -29,7 +29,7 @@ app.get('/games/:gameID', function (req, res) {
     var listID = gameData[gameID].playListId;
     var shuffMax = gameData[gameID].shuffleMax;
     var rand = Math.floor((Math.random() * shuffMax) + 1);
-    console.log("listID = " + listID);
+    console.log("listID = " + listID + " W/ index@ " + rand);
     res.status(200);
     res.render('music', {
         game: gameData,
