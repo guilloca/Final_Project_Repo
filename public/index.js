@@ -4,6 +4,7 @@
  */
 var allLinks = [];
 
+/* **** Shiz that won't work for no good reason ****
 var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
@@ -41,7 +42,7 @@ function onPlayerStateChange(event) {
 function stopVideo() {
     player.stopVideo();
 }
-
+*/
 function insertNewLink(title, photoURL) {
   var context = {
     title: title,
