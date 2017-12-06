@@ -35,9 +35,11 @@ function onPlayerReady(event) {
             console.log("player played!");
         }
     });
-    var listID = document.getElementById('player-content').playlistid;
+    var listID = document.getElementById('player').dataset.playlistid;
     if (!listID) {
         console.log("Error: ListID is empty");
+    } else {
+        console.log("PLAYLIST_ID: " + listID);
     }
 }
 
