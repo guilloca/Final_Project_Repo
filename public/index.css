@@ -70,6 +70,7 @@ header h1
     border-style: solid;
     border-width: 3px;
     border-color: black;
+    border-radius: 15px;
 }
 
 #main-page
@@ -120,6 +121,7 @@ header h1
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .action
@@ -127,7 +129,7 @@ header h1
     bottom: 0px;
     display: flex;
     flex-direction: column;
-    height: 100px;
+    height: auto;
     width: 300px;
     width: auto;
     position: absolute;
@@ -144,10 +146,28 @@ header h1
   top: 100000px;
 }
 
+#title
+{
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.spacer h6
+{
+    margin: 0;
+    padding: 0;
+}
+
 .spacer
 {
     width: 300px;
     height: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5.25px;
+    border-color: white;
     background-color: white;
 }
 
@@ -162,7 +182,7 @@ header h1
     border-style: solid;
     border-width: 10px;
     margin-right: 10px;
-    border-radius: 14%;
+    border-radius: 15%;
     text-align: center;
     min-height: 35px;
     padding: 5px;   
